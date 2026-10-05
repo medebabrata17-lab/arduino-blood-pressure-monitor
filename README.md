@@ -54,6 +54,16 @@ Power Supply
 7. Pulse rate can also be extracted from the pressure signal.
 8. The results are displayed on the OLED/LCD.
 9. The measurements can also be observed through the Serial Monitor.
+
+## Project Documentation
+
+### Block Diagram
+
+![Block Diagram](docs/block-diagram.png)
+
+### Circuit Diagram
+
+![Circuit Diagram](docs/circuit-diagram.png)
 ##  System Architecture
 
 ```text
