@@ -25,6 +25,35 @@ The pressure signal obtained from the cuff is acquired by the Arduino and proces
 
 ---
 
+##  Hardware Components
+
+Arduino Uno
+Blood Pressure Cuff
+Pressure Sensor
+0.96" OLED Display (SSD1306)
+Breadboard
+Jumper Wires
+USB Cable
+Power Supply
+
+##  Software Requirements
+
+- Arduino IDE
+- Arduino C/C++
+- OLED display libraries
+- Wire/I2C library
+
+##  Working Principle
+
+1. The blood pressure cuff is placed around the upper arm.
+2. The cuff pressure is measured using a pressure sensor.
+3. The pressure sensor converts the pressure into an electrical signal.
+4. The Arduino reads the sensor output through an analog input.
+5. The acquired signal is processed to identify pressure variations.
+6. The system estimates systolic and diastolic blood pressure.
+7. Pulse rate can also be extracted from the pressure signal.
+8. The results are displayed on the OLED/LCD.
+9. The measurements can also be observed through the Serial Monitor.
 ##  System Architecture
 
 ```text
