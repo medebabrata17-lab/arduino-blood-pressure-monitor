@@ -1,0 +1,17 @@
+# Arduino
+*.tmp
+*.bak
+
+# Build files
+build/
+out/
+
+# VS Code
+.vscode/
+
+# IDE files
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
